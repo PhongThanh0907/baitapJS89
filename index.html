@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bài tập</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Số Nguyên</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="">Nhập số Nguyên</label>
+                <input id="soNguyen" type="text" class="form-control" />
+              </div>
+              <button id="btnthemSo" class="btn btn-danger">Thêm Số</button>
+              <button id="btnTong" class="btn btn-danger">Tổng</button>
+              <button id="btnDemSo" class="btn btn-danger">Đếm số dương</button>
+              <button id="btnsoNhoNhat" class="btn btn-danger">
+                Số nhỏ nhất
+              </button>
+              <button id="btnsoDuongNhoNhat" class="btn btn-danger mt-2">
+                Số dương nhỏ nhất
+              </button>
+              <button id="btnTimSoChan" class="btn btn-danger mt-2">
+                Tìm Số Chẵn
+              </button>
+              <button id="btndoiViTri" class="btn btn-danger mt-2">
+                Đổi Vị Trí
+              </button>
+              <button id="btnSapXep" class="btn btn-danger mt-2">
+                Sắp xếp tăng dần
+              </button>
+              <button id="btntimSoNguyenTo" class="btn btn-danger mt-2">
+                Số Nguyên Tố Đầu Tiên
+              </button>
+              <button id="btnsoSanhDuongAm" class="btn btn-danger mt-2">
+                So Sánh Tổng Dương, Âm
+              </button>
+              <button id="btnsoThuc" class="btn btn-danger mt-2">
+                Số nguyên trong mảng số thực
+              </button>
+            </div>
+            <div
+              id="footernhapSo"
+              class="alert alert-danger card-footer text-muted"
+            ></div>
+            <div
+              id="footerTong"
+              class="alert alert-success card-footer text-muted"
+            ></div>
+            <div
+              id="footerDemSo"
+              class="alert alert-warning card-footer text-muted"
+            ></div>
+            <div
+              id="footersoNhoNhat"
+              class="alert alert-danger card-footer text-muted"
+            ></div>
+            <div
+              id="footersoDuongNhoNhat"
+              class="alert alert-dark card-footer text-muted"
+            ></div>
+            <div
+              id="footertimSoChan"
+              class="alert alert-success card-footer text-muted"
+            ></div>
+            <div
+              id="footerdoiViTri"
+              class="alert alert-info card-footer text-muted"
+            ></div>
+            <div
+              id="footerSapXep"
+              class="alert alert-info card-footer text-muted"
+            ></div>
+            <div
+              id="footerSoNguyenTo"
+              class="alert alert-info card-footer text-muted"
+            ></div>
+            <div
+              id="footersoSanhTongDuongAm"
+              class="alert alert-warning card-footer text-muted"
+            ></div>
+            <div
+              id="footersoThuc"
+              class="alert alert-success card-footer text-muted"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hoán đổi vị trí -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Hoán đổi vị trí</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="">Nhập số nguyên</label>
+                <input id="soNguyenA" type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label for="">Vị trí 1</label>
+                <input id="viTriA" type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label for="">Vị trí 2</label>
+                <input id="viTriB" type="text" class="form-control" />
+              </div>
+              <button id="btnthemSoA" class="btn btn-info">Thêm Số</button>
+              <button id="btnSwap" class="btn btn-info">Kết Quả</button>
+            </div>
+            <div
+              id="footernhapSoA"
+              class="alert alert-danger card-footer text-muted"
+            ></div>
+            <div
+              id="footerSwap"
+              class="alert alert-success card-footer text-muted"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
